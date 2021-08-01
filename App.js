@@ -12,23 +12,23 @@ import TextScreen from './src/screens/TextScreen';
 import BoxScreen from './src/screens/BoxScreen';
 
 const navigator = createStackNavigator(
-  {
-    Home: HomeScreen,
-    Components: ComponentsScreen,
-    List: ListScreen,
-    Image: ImageScreen,
-    Counter: CounterScreen,
-    Color: ColorScreen,
-    Square: SquareScreen,
-    Text: TextScreen,
-    Box: BoxScreen,
-  },
-  {
-    initialRouteName: 'Home',
-    defaultNavigationOptions: {
-      title: 'App',
-    },
-  }
+	{
+		Home: HomeScreen,
+		Components: ComponentsScreen,
+		List: ListScreen,
+		Image: ImageScreen,
+		Counter: CounterScreen,
+		Color: ColorScreen,
+		Square: SquareScreen,
+		Text: TextScreen,
+		Box: BoxScreen,
+	},
+	{
+		initialRouteName: 'Home',
+		defaultNavigationOptions: {
+			title: 'App',
+		},
+	}
 );
 
 export default createAppContainer(navigator);
